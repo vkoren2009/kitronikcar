@@ -24,5 +24,12 @@ control.onEvent(EventBusSource.MES_DPAD_CONTROLLER_ID, EventBusValue.MES_DPAD_BU
 })
 let speed_motor_2 = 0
 let speed_motor_1 = 0
+basic.showLeds(`
+    . . . . .
+    . . # . .
+    . . # . .
+    # . . . #
+    . . . . .
+    `)
 speed_motor_1 = 0
 speed_motor_2 = 0
